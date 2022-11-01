@@ -1,0 +1,490 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid lightgrey;
+  background-color: #fafafa;
+  opacity: 0.9;
+  position: sticky;
+  top: 0;
+}
+
+.logoContainer {
+  width: 50px;
+  height: 50px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.mobileMenuContainer img {
+  display: none;
+  width: 25%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .left {
+  display: inline-block;
+  width: 50%;
+}
+
+.inner {
+  width: 80%;
+}
+
+.titleHeader {
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.container .right {
+  display: inline-block;
+  width: 50%;
+  /* margin-left: 100px; */
+}
+
+.bottom {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.appStoreImage {
+  width: 40%;
+}
+
+.rightImage {
+  width: 90%;
+}
+
+.menuItem {
+  text-decoration: none;
+  color: rgb(83, 82, 82);
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.menuItem:hover {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  color: black;
+}
+
+.blockElement {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: lightgrey;
+  height: 35px;
+  width: 250px;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+}
+
+.signInButton {
+  background-color: #0084ff;
+  border-radius: 24px;
+  border: none;
+  color: white;
+  padding: 5px 20px 5px;
+  font-size: 19px;
+  height: 40px;
+  width: 100px;
+}
+
+.inputSpan {
+  margin-bottom: 20px;
+}
+
+.password {
+  margin-bottom: 20px;
+}
+
+/* chatting  */
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%;
+  height: 1000px; */
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.box-container .left1 {
+  display: flex;
+}
+
+.box-container .right1 {
+  display: flex;
+}
+
+.num1 {
+  background-color: rgb(240, 241, 241);
+  border-radius: 20px;
+  width: 290px;
+  height: 400px;
+  margin-right: 50px;
+}
+
+.num1 .first1 {
+  display: flex;
+}
+
+.num1 .first1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.num1 .first1 .name h4 {
+  margin-top: 30px;
+}
+
+.num1 .first1 .name p {
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.num1 .first1 .name p span {
+  color: rgb(152, 152, 153);
+}
+
+.num1 .first2 {
+  display: flex;
+  margin-top: -20px;
+}
+
+.num1 .first2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.num1 .first2 .name h4 {
+  margin-top: 30px;
+}
+
+.num1 .first2 .name p {
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.num1 .first2 .name p span {
+  color: rgb(152, 152, 153);
+}
+
+.num1 .first3 {
+  display: flex;
+  margin-top: -20px;
+}
+
+.num1 .first3 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.num1 .first3 .name h4 {
+  margin-top: 30px;
+}
+
+.num1 .first3 .name p {
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.num1 .first3 .name p span {
+  color: rgb(152, 152, 153);
+}
+
+.num1 .first4 {
+  display: flex;
+  margin-top: -20px;
+}
+
+.num1 .first4 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.num1 .first4 .name h4 {
+  margin-top: 30px;
+}
+
+.num1 .first4 .name p {
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.num1 .first4 .name p span {
+  color: rgb(152, 152, 153);
+}
+
+.num1 h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.num2 {
+  background-color: rgb(240, 241, 241);
+  border-radius: 20px;
+  width: 290px;
+  height: 400px;
+}
+
+.num2 div .img1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 120px;
+  border: 3px solid white;
+}
+
+.num2 div .img2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 70px;
+  margin-top: -40px;
+  border: 3px solid black;
+}
+
+.num2 div.spot {
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 180px;
+  margin-top: -40px;
+}
+
+.num2 h1 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.num2 p {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 18px;
+}
+
+.num3 {
+  background-color: rgb(240, 241, 241);
+  border-radius: 20px;
+  width: 290px;
+  height: 400px;
+  margin-right: 50px;
+}
+
+.num3 h2 {
+  background-color: rgb(8, 187, 187);
+  font-size: 13px;
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 200px;
+  height: 20px;
+  padding: 10px 0px 5px 0px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.num3 .pull {
+  background-color: white;
+  width: 200px;
+  height: 180px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.num3 .pull h2 {
+  background-color: rgb(8, 187, 187);
+  font-size: 13px;
+  width: 170px;
+  height: 20px;
+  padding: 10px 0px 5px 0px;
+  border-radius: 10px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.num3 .pull h2.col {
+  color: black;
+  background-color: rgb(221, 218, 218);
+}
+
+.num3 .pull p {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.num3 h1 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 70px;
+}
+
+.num4 {
+  background-color: rgb(240, 241, 241);
+  border-radius: 20px;
+  width: 290px;
+  height: 400px;
+}
+
+.num4 h2 {
+  background-color: rgb(102, 93, 187);
+  font-size: 13px;
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 200px;
+  height: 20px;
+  padding: 10px 0px 5px 0px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.num4 h2.write {
+  margin-top: -7px;
+  width: 100px;
+  height: 20px;
+  margin-left: 180px;
+}
+
+.num4 img {
+  width: 60%;
+  margin-top: -20px;
+}
+
+.num4 h2.write1 {
+  margin-top: -10px;
+  width: 210px;
+  height: 20px;
+  margin-left: 10px;
+  background-color: white;
+  color: black;
+}
+
+.num4 h1 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+  .menuContainer {
+    display: none;
+  }
+
+  .mobileMenuContainer img {
+    display: block;
+  }
+
+  .container .left {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .container .left .inner {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .container .right {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 375px) {
+  .inner {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .box-container .left1 {
+    display: grid;
+    margin-left: 150px;
+  }
+  .box-container .left1 .num1 {
+    margin-bottom: 50px;
+  }
+  .box-container .right1 .num3 {
+    margin-bottom: 50px;
+  }
+  .box-container .right1 {
+    display: grid;
+    margin-right: 100px;
+  }
+  .mainContainer .container {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .box-container {
+    display: grid;
+  }
+  .box-container .left1 {
+    margin-left: 150px;
+  }
+  .box-container .right1 {
+    margin-left: 150px;
+  }
+  .box-container .left1 .num2 {
+    margin-bottom: 50px;
+  }
+  .box-container .right1 .num3 {
+    margin-bottom: 50px;
+  }
+}
+/* 
+cmd+tag 
+cmd+f
+
+*/
